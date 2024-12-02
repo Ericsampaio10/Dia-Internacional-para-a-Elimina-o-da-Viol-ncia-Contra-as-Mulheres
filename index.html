@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Site</title>
+    <style>
+        body {
+            color: black;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        header img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 5px solid red;
+        }
+        .center {
+            text-align: center;
+        }
+        footer img {
+            width: 80px;
+            height: 80px;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+        }
+        footer a {
+            margin: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 0px 50px;
+        }
+        nav a:hover {
+            color: green;
+        }
+        .text {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .text h1, h2 {
+            text-align: center;
+        }
+        .text p {
+            text-align: justify;
+            font-size: 20px;
+        }
+        header h1 {
+            font-weight: normal;
+        }
+        .text h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #b22222;
+            margin-bottom: 20px;
+        }
+        .text ul {
+            margin: 20px auto;
+            padding-left: 40px;
+            max-width: 1000px;
+        }
+        .text ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.5;
+            list-style-type: disc;
+            color: #444;
+        }
+        .text blockquote {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #555;
+            border-left: 5px solid #b22222;
+            padding-left: 15px;
+            background-color: #f9f9f9;
+            margin: 30px auto;
+            max-width: 900px;
+        }
+        .text img {
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .topics ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            list-style: none;
+        }
+        .topics ul li {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .topics ul li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .topics ul li a {
+            color: #444;
+            text-decoration: none;
+            display: block;
+        }
+        .topics ul li h3 {
+            font-size: 20px;
+            color: #b22222;
+            margin-bottom: 10px;
+        }
+        .topics ul li p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            height: 250px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+        .card-title {
+            color: #3c3c3c;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            color: #555;
+            font-size: 14px;
+        }
+        button {
+            background-color: #b93a3a;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        button:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia Internacional para a Eliminação da Violência Contra as Mulheres</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cards-container">
+        
+        <div class="card">
+            <h3><span class="icon">✋</span> Diga Não à Violência</h3>
+            <p>Este é um chamado para todos nós trabalharmos juntos na construção de um futuro mais justo e seguro para as mulheres.</p>
+            <a href="diga-nao-a-violencia.html" class="button">Saiba Mais</a>
+        </div>
+
+        
+        <div class="card">
+            <h3><span class="icon">🤝</span> Juntos Pelo Fim da Violência Contra as Mulheres</h3>
+            <p>Descubra o significado por trás do 25 de novembro e como essa data simboliza a resistência contra todas as formas de violência sofridas por mulheres ao redor do mundo.</p>
+            <a href="fim-da-violencia.html" class="button">Saiba Mais</a>
+        </div>
+
+       
+        <div class="card">
+            <h3><span class="icon">📣</span> Unindo Vozes Contra a Violência de Gênero</h3>
+            <p>Explore como campanhas globais, ativistas e organizações estão unindo forças para enfrentar a violência contra mulheres e meninas, promovendo a igualdade e a justiça.</p>
+            <a href="unindo-vozes.html" class="button">Saiba Mais</a>
+        </div>
+
+        
+        <div class="card">
+            <h3><span class="icon">✊</span> Transformando Dor em Luta</h3>
+            <p>Conheça histórias inspiradoras de mulheres que transformaram suas experiências de violência em coragem para lutar por mudanças significativas na sociedade.</p>
+            <a href="transformando-dor.html" class="button">Saiba Mais</a>
+        </div>
+
+        
+        <div class="card">
+            <h3><span class="icon">🕊️</span> Pelo Direito de Viver Sem Medo</h3>
+            <p>Saiba mais sobre as ações globais e locais realizadas nessa data para assegurar que todas as mulheres possam viver livres de violência, com dignidade e respeito.</p>
+            <a href="viver-sem-medo.html" class="button">Saiba Mais</a>
+        </div>
+    </div>
+  <header class=""> 
+      <div class="center">
+        <img src="https://i0.wp.com/cress-se.org.br/wp-content/uploads/2020/11/Dia-Internacional-pela-eliminacao-da-violencia-1.jpg?fit=1080%2C1080&ssl=1" alt="Dia Internacional para a Eliminação da Violência Contra as Mulheres: Diga Não à Violência">
+      </div>
+  </header>
+    <div class="text">
+        <h1> Dia Internacional para a Eliminação da Violência Contra as Mulheres: Diga Não à Violência</h1>
+        <br>
+        <section>
+            <h2>O que é o dia Internacional para a eliminação da violência contra as mulheres?</h2>
+            <p>
+                O Dia Internacional para a Eliminação da Violência Contra as Mulheres é celebrado todos os anos em 25 de novembro. A data foi estabelecida pela ONU em 1999, como um chamado global para conscientizar a sociedade sobre a gravidade da violência de gênero e mobilizar ações para combatê-la.
+
+                Essa data homenageia as irmãs Mirabal, ativistas políticas da República Dominicana brutalmente assassinadas em 1960 por sua luta contra a ditadura. Desde então, o dia tornou-se um símbolo de resistência e solidariedade às mulheres em todo o mundo.
+                
+                A violência contra as mulheres é um dos problemas mais graves enfrentados pela sociedade. É um obstáculo para a igualdade de gênero, o desenvolvimento e a paz. Este dia nos lembra que a luta pelo fim da violência é uma responsabilidade coletiva.
+                <br> </br>
+                
+                "Todo ato de violência contra uma mulher é um passo atrás na luta por igualdade."                <div style="text-align: center;">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/MvZk83I8Zlc" frameborder="0" allowfullscreen></iframe>
+                </div>
+        </section>
+    
+        <section>
+            <h2>Impactos da violência contra as mulheres</h2>
+            <p>
+                A violência contra as mulheres tem impactos devastadores, afetando não apenas as vítimas diretamente, mas também suas famílias, comunidades e a sociedade como um todo. Essa violência ocorre em diversas formas, incluindo física, psicológica, sexual, econômica e até digital, criando um ciclo de sofrimento e desigualdade.
+                <br> </br>
+
+                De acordo com a ONU, 1 em cada 3 mulheres no mundo já sofreu violência física ou sexual em algum momento da vida. Além disso, a violência é uma das principais causas de morte ou lesões graves para mulheres, muitas vezes cometida por parceiros ou familiares.
+                <br> </br>
+                Os impactos vão além das vítimas:
+                <br> </br>
+                Saúde Física e Mental: Mulheres que sofrem violência frequentemente enfrentam problemas como ansiedade, depressão, traumas duradouros e doenças relacionadas ao estresse.
+                <br> </br>
+                Impacto Econômico: A violência contribui para a perda de produtividade, ausências no trabalho e custos de saúde elevados.
+                <br> </br>
+                Danos à Estrutura Familiar: Crianças expostas à violência doméstica são mais propensas a desenvolver traumas e reproduzir comportamentos agressivos no futuro.            <div style="text-align: center;">
+                <img src="https://aupa.com.br/wp-content/uploads/2020/07/feminicidio-1024x1024.jpg" width="200" height="200">
+            </div>
+        </section>
+        <section>
+            <section>
+                <h2>Junte-se à luta: como você pode ajudar?</h2>
+                <p>
+                    O combate à violência contra as mulheres é uma responsabilidade de todos. Pequenas ações podem ter um impacto significativo, e cada pessoa tem um papel fundamental nessa luta. Veja como você pode fazer parte da mudança:
+                </p>
+                <ul>
+                    <li><strong>Conscientize-se e Compartilhe Informações:</strong> Leia e compartilhe materiais sobre os direitos das mulheres e os impactos da violência de gênero. Use suas redes sociais para divulgar campanhas e apoiar movimentos que promovem a igualdade de gênero.</li>
+                    <li><strong>Apoie Organizações e Campanhas:</strong> Participe de eventos e ações organizadas por ONGs, governos e movimentos feministas. Doe para instituições que oferecem suporte a mulheres em situação de violência.</li>
+                    <li><strong>Denuncie e Incentive Denúncias:</strong> Se presenciar ou souber de algum caso de violência, não fique em silêncio. Ligue para os serviços de emergência ou utilize canais de denúncia, como o 180 no Brasil. Ajude mulheres próximas a você, oferecendo apoio e orientando-as sobre como buscar ajuda.</li>
+                </ul>
+                <blockquote>"Cada gesto de solidariedade é um passo em direção a um mundo mais justo e igualitário."</blockquote>
+                <p>
+                    Transforme sua indignação em ação. Juntos, podemos criar uma sociedade onde todas as mulheres vivam com segurança, dignidade e respeito.
+                </p>
+                <div style="text-align: center;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ7AlmRP_Ire0SRb02k_IPmtW0I_IXj3A65Q&s" width="200" height="200" alt="Ação contra violência">
+                </div>
+                
+                
+            </section>
+            <h2>Educação e conscientização: A base da mudança</h2>
+            <p>
+                A educação e a conscientização são ferramentas poderosas na luta contra a violência de gênero. Elas têm o poder de transformar mentalidades, desconstruir preconceitos e promover atitudes de respeito e empatia, criando as bases para uma sociedade mais justa e igualitária.
+        <h3>Nas escolas</h3>
+        Nas escolas, a inclusão de temas como igualdade de gênero, direitos humanos e combate à violência em currículos escolares é essencial. Através de disciplinas específicas, palestras e debates, é possível sensibilizar crianças e adolescentes, ajudando-os a entender a importância do respeito e da convivência pacífica. 
+        <h3>Na comunidade</h3>
+            Campanhas públicas e atividades comunitárias desempenham um papel vital na conscientização da sociedade. Eventos como rodas de conversa, exibições de filmes e workshops criam oportunidades para educar a população sobre o impacto da violência e as formas de combatê-la. A união da comunidade é uma força crucial para transformar hábitos e comportamentos.
+            <h3>No ambiente de trabalho</h3>   
+            As empresas também têm um papel importante na educação e conscientização. Por meio de treinamentos sobre assédio, discriminação e igualdade de gênero, elas podem promover um ambiente inclusivo e seguro, além de estabelecer políticas claras contra a violência e o assédio.
+                <div style="text-align: center;">
+                <img src="https://files.oaiusercontent.com/file-C5ju1Rs6Tw8q3kAvgD9bdD?se=2024-11-25T15%3A27%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D90b4cdfb-998d-4ba5-8916-124357c04251.webp&sig=SakWMMEuUY7xKcill4lCE08BUC/hEYtKyRVfAobBF2Y%3D" width="200" height="200">
+            </div>
+            <div style="text-align: center;">
+                <div style="text-align: center;">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/0mVGbFG0KU8" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+        </section>
+    </div>
+
+  <footer>
+    <a href=" https://www.onumulheres.org.br/" target="_blank" rel="noopener noreferrer">
+       <img src=" https://www.onumulheres.org.br//wp-content/uploads/2013/04/UN_Women_Portuguese_Blue_TransparentBackground_site.png"></img>
+       <p>Onu mulheres</p>
+    </a>
+    <a href="https://www.institutomariadapenha.org.br/" target="_blank" rel="noopener noreferrer">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTa0jWx3WgtEus-QaWUMrl9x8XvL9sZ6qG9Q&s"></img>
+        <p>Instituto Maria da penha</p>
+     </a>
+     <a href="http://www.lacobranco.org.br/" target="_blank" rel="noopener noreferrer">
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHlsE6h2-rLDA/company-logo_200_200/0/1630650958707/instituto_papai_logo?e=2147483647&v=beta&t=E6tBAdPTSFfy91SWXz0TgW0CS_kNbZcfIo_lmJxJ0EM"></img>
+        <p>Campanha do laço branco</p>
+     </a>
+  </footer>
+  </div>
+</body>
+</html>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia Internacional para a Eliminação da Violência Contra as Mulheres</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cards-container">
+        
+        <div class="card">
+            <h3><span class="icon">✋</span> Diga Não à Violência</h3>
+            <p>Este é um chamado para todos nós trabalharmos juntos na construção de um futuro mais justo e seguro para as mulheres.</p>
+            <a href="diga-nao-a-violencia.html" class="button">Saiba Mais</a>
+        </div>
+
+        
+        <div class="card">
+            <h3><span class="icon">🤝</span> Juntos Pelo Fim da Violência Contra as Mulheres</h3>
+            <p>Descubra o significado por trás do 25 de novembro e como essa data simboliza a resistência contra todas as formas de violência sofridas por mulheres ao redor do mundo.</p>
+            <a href="fim-da-violencia.html" class="button">Saiba Mais</a>
+        </div>
+
+       
+        <div class="card">
+            <h3><span class="icon">📣</span> Unindo Vozes Contra a Violência de Gênero</h3>
+            <p>Explore como campanhas globais, ativistas e organizações estão unindo forças para enfrentar a violência contra mulheres e meninas, promovendo a igualdade e a justiça.</p>
+            <a href="unindo-vozes.html" class="button">Saiba Mais</a>
+        </div>
+
+        
+        <div class="card">
+            <h3><span class="icon">✊</span> Transformando Dor em Luta</h3>
+            <p>Conheça histórias inspiradoras de mulheres que transformaram suas experiências de violência em coragem para lutar por mudanças significativas na sociedade.</p>
+            <a href="transformando-dor.html" class="button">Saiba Mais</a>
+        </div>
+
+        
+        <div class="card">
+            <h3><span class="icon">🕊️</span> Pelo Direito de Viver Sem Medo</h3>
+            <p>Saiba mais sobre as ações globais e locais realizadas nessa data para assegurar que todas as mulheres possam viver livres de violência, com dignidade e respeito.</p>
+            <a href="viver-sem-medo.html" class="button">Saiba Mais</a>
+        </div>
+    </div>
+  <header class=""> 
+      <div class="center">
+        <img src="https://i0.wp.com/cress-se.org.br/wp-content/uploads/2020/11/Dia-Internacional-pela-eliminacao-da-violencia-1.jpg?fit=1080%2C1080&ssl=1" alt="Dia Internacional para a Eliminação da Violência Contra as Mulheres: Diga Não à Violência">
+      </div>
+  </header>
+    <div class="text">
+        <h1> Dia Internacional para a Eliminação da Violência Contra as Mulheres: Diga Não à Violência</h1>
+        <br>
+        <section>
+            <h2>O que é o dia Internacional para a eliminação da violência contra as mulheres?</h2>
+            <p>
+                O Dia Internacional para a Eliminação da Violência Contra as Mulheres é celebrado todos os anos em 25 de novembro. A data foi estabelecida pela ONU em 1999, como um chamado global para conscientizar a sociedade sobre a gravidade da violência de gênero e mobilizar ações para combatê-la.
+
+                Essa data homenageia as irmãs Mirabal, ativistas políticas da República Dominicana brutalmente assassinadas em 1960 por sua luta contra a ditadura. Desde então, o dia tornou-se um símbolo de resistência e solidariedade às mulheres em todo o mundo.
+                
+                A violência contra as mulheres é um dos problemas mais graves enfrentados pela sociedade. É um obstáculo para a igualdade de gênero, o desenvolvimento e a paz. Este dia nos lembra que a luta pelo fim da violência é uma responsabilidade coletiva.
+                <br> </br>
+                
+                "Todo ato de violência contra uma mulher é um passo atrás na luta por igualdade."                <div style="text-align: center;">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/MvZk83I8Zlc" frameborder="0" allowfullscreen></iframe>
+                </div>
+        </section>
+    
+        <section>
+            <h2>Impactos da violência contra as mulheres</h2>
+            <p>
+                A violência contra as mulheres tem impactos devastadores, afetando não apenas as vítimas diretamente, mas também suas famílias, comunidades e a sociedade como um todo. Essa violência ocorre em diversas formas, incluindo física, psicológica, sexual, econômica e até digital, criando um ciclo de sofrimento e desigualdade.
+                <br> </br>
+
+                De acordo com a ONU, 1 em cada 3 mulheres no mundo já sofreu violência física ou sexual em algum momento da vida. Além disso, a violência é uma das principais causas de morte ou lesões graves para mulheres, muitas vezes cometida por parceiros ou familiares.
+                <br> </br>
+                Os impactos vão além das vítimas:
+                <br> </br>
+                Saúde Física e Mental: Mulheres que sofrem violência frequentemente enfrentam problemas como ansiedade, depressão, traumas duradouros e doenças relacionadas ao estresse.
+                <br> </br>
+                Impacto Econômico: A violência contribui para a perda de produtividade, ausências no trabalho e custos de saúde elevados.
+                <br> </br>
+                Danos à Estrutura Familiar: Crianças expostas à violência doméstica são mais propensas a desenvolver traumas e reproduzir comportamentos agressivos no futuro.            <div style="text-align: center;">
+                <img src="https://aupa.com.br/wp-content/uploads/2020/07/feminicidio-1024x1024.jpg" width="200" height="200">
+            </div>
+        </section>
+        <section>
+            <section>
+                <h2>Junte-se à luta: como você pode ajudar?</h2>
+                <p>
+                    O combate à violência contra as mulheres é uma responsabilidade de todos. Pequenas ações podem ter um impacto significativo, e cada pessoa tem um papel fundamental nessa luta. Veja como você pode fazer parte da mudança:
+                </p>
+                <ul>
+                    <li><strong>Conscientize-se e Compartilhe Informações:</strong> Leia e compartilhe materiais sobre os direitos das mulheres e os impactos da violência de gênero. Use suas redes sociais para divulgar campanhas e apoiar movimentos que promovem a igualdade de gênero.</li>
+                    <li><strong>Apoie Organizações e Campanhas:</strong> Participe de eventos e ações organizadas por ONGs, governos e movimentos feministas. Doe para instituições que oferecem suporte a mulheres em situação de violência.</li>
+                    <li><strong>Denuncie e Incentive Denúncias:</strong> Se presenciar ou souber de algum caso de violência, não fique em silêncio. Ligue para os serviços de emergência ou utilize canais de denúncia, como o 180 no Brasil. Ajude mulheres próximas a você, oferecendo apoio e orientando-as sobre como buscar ajuda.</li>
+                </ul>
+                <blockquote>"Cada gesto de solidariedade é um passo em direção a um mundo mais justo e igualitário."</blockquote>
+                <p>
+                    Transforme sua indignação em ação. Juntos, podemos criar uma sociedade onde todas as mulheres vivam com segurança, dignidade e respeito.
+                </p>
+                <div style="text-align: center;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ7AlmRP_Ire0SRb02k_IPmtW0I_IXj3A65Q&s" width="200" height="200" alt="Ação contra violência">
+                </div>
+                
+                
+            </section>
+            <h2>Educação e conscientização: A base da mudança</h2>
+            <p>
+                A educação e a conscientização são ferramentas poderosas na luta contra a violência de gênero. Elas têm o poder de transformar mentalidades, desconstruir preconceitos e promover atitudes de respeito e empatia, criando as bases para uma sociedade mais justa e igualitária.
+        <h3>Nas escolas</h3>
+        Nas escolas, a inclusão de temas como igualdade de gênero, direitos humanos e combate à violência em currículos escolares é essencial. Através de disciplinas específicas, palestras e debates, é possível sensibilizar crianças e adolescentes, ajudando-os a entender a importância do respeito e da convivência pacífica. 
+        <h3>Na comunidade</h3>
+            Campanhas públicas e atividades comunitárias desempenham um papel vital na conscientização da sociedade. Eventos como rodas de conversa, exibições de filmes e workshops criam oportunidades para educar a população sobre o impacto da violência e as formas de combatê-la. A união da comunidade é uma força crucial para transformar hábitos e comportamentos.
+            <h3>No ambiente de trabalho</h3>   
+            As empresas também têm um papel importante na educação e conscientização. Por meio de treinamentos sobre assédio, discriminação e igualdade de gênero, elas podem promover um ambiente inclusivo e seguro, além de estabelecer políticas claras contra a violência e o assédio.
+                <div style="text-align: center;">
+                <img src="https://files.oaiusercontent.com/file-C5ju1Rs6Tw8q3kAvgD9bdD?se=2024-11-25T15%3A27%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D90b4cdfb-998d-4ba5-8916-124357c04251.webp&sig=SakWMMEuUY7xKcill4lCE08BUC/hEYtKyRVfAobBF2Y%3D" width="200" height="200">
+            </div>
+            <div style="text-align: center;">
+                <div style="text-align: center;">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/0mVGbFG0KU8" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+        </section>
+    </div>
+
+  <footer>
+    <a href=" https://www.onumulheres.org.br/" target="_blank" rel="noopener noreferrer">
+       <img src=" https://www.onumulheres.org.br//wp-content/uploads/2013/04/UN_Women_Portuguese_Blue_TransparentBackground_site.png"></img>
+       <p>Onu mulheres</p>
+    </a>
+    <a href="https://www.institutomariadapenha.org.br/" target="_blank" rel="noopener noreferrer">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTa0jWx3WgtEus-QaWUMrl9x8XvL9sZ6qG9Q&s"></img>
+        <p>Instituto Maria da penha</p>
+     </a>
+     <a href="http://www.lacobranco.org.br/" target="_blank" rel="noopener noreferrer">
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHlsE6h2-rLDA/company-logo_200_200/0/1630650958707/instituto_papai_logo?e=2147483647&v=beta&t=E6tBAdPTSFfy91SWXz0TgW0CS_kNbZcfIo_lmJxJ0EM"></img>
+        <p>Campanha do laço branco</p>
+     </a>
+  </footer>
+  </div>
+</body>
+</html>
